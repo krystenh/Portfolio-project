@@ -1,0 +1,13 @@
+body {
+  background: #f7ded0;
+  margin-top: 100px;
+}
+
+h1 {
+  padding-top: 100px;
+}
+
+.navbar-nav li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
