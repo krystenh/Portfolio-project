@@ -1,13 +1,90 @@
+@font-face {
+  font-family: "Handsetting";
+  src: url(/fonts/Scatter\ ink.ttf);
+}
+
+:root {
+  --primary-color: #22577e;
+  --secondary-color: #f7ded0;
+}
+
 body {
   background: #f7ded0;
-  margin-top: 100px;
+  margin-top: 200px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--primary-color);
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Cabin", sans-serif;
 }
 
 h1 {
   padding-top: 100px;
+  font-family: "Handsetting", sans-serif;
+  font-size: 150px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+h4 {
+  font-size: 17px;
 }
 
 .navbar-nav li {
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.intro-art {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 200px;
+  margin-bottom: 120px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 40px;
+}
+
+.primary-link {
+  background: var(--primary-color);
+  padding: 20px 30px;
+  color: var(--secondary-color);
+  border-radius: 6px;
+  border: 1px solid var(--primary-color);
+}
+
+.primary-link:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+}
+
+footer a {
+  margin: 30px;
+}
+
+i {
+  color: var(--primary-color);
+  font-size: 30px;
 }
