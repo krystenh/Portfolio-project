@@ -10,26 +10,31 @@
 
 body {
   background: #f7ded0;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
   color: var(--primary-color);
 }
 
-h2,
 h3,
 h4 {
   font-family: "Cabin", sans-serif;
 }
 
 h1 {
-  padding-top: 100px;
+  padding-top: 200px;
   font-family: "Handsetting", sans-serif;
   font-size: 150px;
+}
+
+h2 {
+  font-family: "Handsetting", sans-serif;
+  font-size: 80px;
 }
 
 h3 {
@@ -87,4 +92,15 @@ footer a {
 i {
   color: var(--primary-color);
   font-size: 30px;
+}
+
+.project-button {
+  display: block;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 200px;
+}
+
+.about-project {
+  margin: 30px 70px;
 }
