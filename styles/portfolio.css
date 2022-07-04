@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Handsetting";
+  font-family: "Scatter ink";
   src: url(/fonts/Scatter\ ink.ttf);
 }
 
@@ -28,12 +28,12 @@ h4 {
 
 h1 {
   padding-top: 200px;
-  font-family: "Handsetting", sans-serif;
+  font-family: "Scatter ink", sans-serif;
   font-size: 150px;
 }
 
 h2 {
-  font-family: "Handsetting", sans-serif;
+  font-family: "Scatter ink", sans-serif;
   font-size: 80px;
 }
 
@@ -103,4 +103,15 @@ i {
 
 .about-project {
   margin: 30px 70px;
+}
+
+.project-titles {
+  font-family: "Scatter ink", sans-serif;
+  font-size: 45px;
+  margin: 30px 50px;
+}
+
+.shiba-inu {
+  width: 500px;
+  border-radius: 12px;
 }
