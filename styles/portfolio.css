@@ -81,9 +81,14 @@ a {
   margin: 40px;
 }
 
-.primary-link {
+.website-button {
   display: block;
+  margin-top: 30px;
+  margin: 0 25px;
   text-align: center;
+}
+
+.primary-link {
   margin: 0 25px;
   background: var(--primary-color);
   padding: 20px 30px;
@@ -111,6 +116,7 @@ i {
 .project-button {
   display: block;
   text-align: center;
+
   margin-top: 80px;
   margin-bottom: 150px;
 }
