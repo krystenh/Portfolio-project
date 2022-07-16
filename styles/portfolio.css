@@ -20,6 +20,7 @@ h3,
 h4,
 p {
   color: var(--primary-color);
+  text-align: center;
 }
 
 h3,
@@ -44,6 +45,10 @@ h3 {
 
 h4 {
   font-size: 17px;
+}
+
+.container {
+  max-width: 1000px;
 }
 
 .navbar-nav li {
@@ -77,6 +82,9 @@ a {
 }
 
 .primary-link {
+  display: block;
+  text-align: center;
+  margin: 0 25px;
   background: var(--primary-color);
   padding: 20px 30px;
   color: var(--secondary-color);
@@ -152,4 +160,56 @@ h4 a {
 
 h4 a:hover {
   color: var(--primary-color);
+}
+
+@media (max-width: 2320px) {
+  .container {
+    max-width: 2000px;
+  }
+}
+@media (max-width: 820px) {
+  .collapse .navbar-collapse {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 100px;
+    padding-top: 60px;
+  }
+
+  h2,
+  h3,
+  h4,
+  p {
+    text-align: center;
+  }
+
+  .intro-art {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-bottom: 120px;
+  }
+
+  .navigation-links a {
+    margin: 7px;
+  }
+
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 50px;
+  }
+
+  .artworks {
+    display: block;
+    text-align: center;
+  }
+
+  .digital-art {
+    max-width: 60%;
+  }
 }
