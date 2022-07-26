@@ -111,6 +111,13 @@ footer a {
 i {
   color: var(--primary-color);
   font-size: 30px;
+  padding: 12px;
+}
+
+footer i:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border-radius: 50%;
 }
 
 .project-button {
@@ -157,7 +164,7 @@ i {
 }
 
 .contact-margin {
-  margin-bottom: 230px;
+  margin-bottom: 60px;
 }
 
 h4 a {
@@ -166,6 +173,14 @@ h4 a {
 
 h4 a:hover {
   color: var(--primary-color);
+}
+
+.logo {
+  text-align: center;
+}
+
+.signature-pic {
+  width: 100px;
 }
 
 @media (max-width: 2320px) {
